@@ -14,10 +14,8 @@ fi
 
 mkdir -v $PKG_ROOT
 pushd ..
-echo `pwd`
 cp ./target/eve-0.0.1-SNAPSHOT.jar $APP_NAME/
-cp ./start.sh $APP_NAME/
-cp ./stop.sh $APP_NAME/
+cp ./run.sh $APP_NAME/
 tar -czf $APP_NAME.tar.gz $APP_NAME/
 chmod 755 $APP_NAME.tar.gz
 popd
