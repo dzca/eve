@@ -18,7 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
 	public static final Contact DEFAULT_CONTACT = new Contact(
-			"Ranga Karanam", "http://www.in28minutes.com", "in28minutes@gmail.com");
+			"Dustin Zhang", "http://www.freeindex.ca", "dike.zhang@gmail.com");
 	
 	public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
 			"Awesome API Title", "Awesome API Description", "1.0",
