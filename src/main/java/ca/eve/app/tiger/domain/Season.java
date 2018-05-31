@@ -73,5 +73,10 @@ public class Season {
 		this.endDate = endDate;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "Season [id=" + id + ", name=" + name + ", school=" + school + ", address=" + address + ", startDate="
+				+ startDate + ", endDate=" + endDate + "]";
+	}
+
 }
